@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toast" />
+
+    <TextView
+        android:id="@+id/btn_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show a message" />
+
+    <com.example.anull.view.BtnView
+        android:id="@+id/btn_listen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Listener" />
+
+    <com.example.anull.view.CircleView
+        android:id="@+id/circle_t"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="txtResult" />
+
+    <TextView
+        android:id="@+id/txttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!--设置一个进度条,并且设置为水平方向-->
+    <ProgressBar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pgbar"
+        style="?android:attr/progressBarStyleHorizontal"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnupdate"
+        android:text="更新progressBar"/>
+</LinearLayout>
